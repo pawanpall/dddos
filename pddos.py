@@ -9,8 +9,8 @@ from threading import Lock
 import sqlite3
 
 # Bot configuration
-bot = telebot.TeleBot('7302957461:AAGf-kmGQqd7lvTIk-7F6jiWlTS1LtiwrKQ')
-admin_id = {"8167507955"}  # Add more admin IDs as needed
+bot = telebot.TeleBot('8834226416:AAHukKXO4awbwA_zxWG_8117Mm0QY2rKRvg')
+admin_id = {"1819675229"}  # Add more admin IDs as needed
 DB_FILE = "maut_bot.db"
 LOG_FILE = "attack_logs.txt"
 COOLDOWN_TIME = 300  # 5 minutes
@@ -18,8 +18,8 @@ MAX_ATTACK_TIME = 120  # 2 minutes
 MAX_DAILY_ATTACKS = 10  # 10 attacks per day
 ATTACKS_PER_INVITE = 2  # 2 bonus attacks per invite
 IMAGE_URL = "https://t.me/gggkkkggggiii/11"
-CHANNEL_ID = -1002440538814  # Channel ID to check membership
-CHANNEL_LINK = "https://t.me/+R4ram7JA-yY4MWQ1"  # Channel invite link
+CHANNEL_ID = -1001970485475  # Channel ID to check membership
+CHANNEL_LINK = "https://t.me/indiandbms"  # Channel invite link
 
 # Initialize database
 def init_db():
