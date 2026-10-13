@@ -21,9 +21,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-TOKEN = '7232868612:AAEE686letBrsPMdJ28S1QJv51MXY2B5lNc'
+TOKEN = '8834226416:AAHukKXO4awbwA_zxWG_8117Mm0QY2rKRvg'
 MONGO_URI = 'mongodb+srv://zeni:1I8uJt78Abh4K5lo@zeni.v7yls.mongodb.net/?retryWrites=true&w=majority&appName=zeni'
-ADMIN_IDS = [8167507955]
+ADMIN_IDS = [1819675229]
 OWNER_USERNAME = "seedhe_maut_bot"
 BLOCKED_PORTS = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 
